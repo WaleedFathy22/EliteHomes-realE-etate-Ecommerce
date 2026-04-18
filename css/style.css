@@ -547,6 +547,24 @@ color: white;
   outline: 2px solid var(--primary-color) !important;
 }
 
+.location-wrapper .location-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  z-index: 1;
+  color: #6c757d;
+  pointer-events: none;
+}
+
+.location-wrapper .location:focus {
+  padding-left: 2rem !important;
+}
+
+.location-wrapper input::placeholder{
+  text-indent: 10px;
+}
+
 .home form select{
     background-image: none !important;
 }
