@@ -153,6 +153,7 @@
   margin: 0;
   bottom: 0;
   box-sizing: border-box;
+  border: 1px solid black;
 }
 
 body {
@@ -213,6 +214,7 @@ color: white;
   padding: 5px 20px;
   background-color:d;
   letter-spacing: 1.5px;
+  overflow: hidden;
 }
 
 .title span.last{
@@ -228,7 +230,7 @@ color: white;
   position: absolute;
   width: 50%;
   height: 2.5px;
-  left: -60%;
+  left: -70%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to right , rgba(0,0,0,0) 30% , rgb(128, 34, 254) 50% 100%);
@@ -239,7 +241,7 @@ color: white;
   position: absolute;
   width: 50%;
   height: 2.5px;
-  right: -60%;
+  right: -70%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to left , rgba(0,0,0,0) 20% , rgb(128, 34, 254) 50% 100%);
