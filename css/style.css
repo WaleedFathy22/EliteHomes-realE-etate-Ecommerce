@@ -211,8 +211,9 @@ color: white;
   font-weight: 700;
   border: 2px solid #DDD6FF;
   padding: 5px 20px;
-  background-color:d;
+  background-color: #F5F3FF;
   letter-spacing: 1.5px;
+  display: inline-block;
 }
 
 .title span.last{
@@ -226,24 +227,25 @@ color: white;
 .title span:first-child::before{
   content: "";
   position: absolute;
-  width: 30%;
-  height: 2.5px;
-  left: -30%;
+  width: 60px;
+  height: 2px;
+  left: 0;
   top: 50%;
-  transform: translateY(-50%);
-  background: linear-gradient(to right , rgba(0,0,0,0) 30% , rgb(128, 34, 254) 50% 100%);
+  transform: translate(-130%, -50%);
+  background: linear-gradient(to right, rgba(0,0,0,0) 20%, rgb(128, 34, 254) 50% 100%);
 }
 
 .title span:first-child::after{
   content: "";
   position: absolute;
-  width: 30%;
-  height: 2.5px;
-  right: -30%;
+  width: 60px;
+  height: 2px;
+  right: 0;
   top: 50%;
-  transform: translateY(-50%);
-  background: linear-gradient(to left , rgba(0,0,0,0) 20% , rgb(128, 34, 254) 50% 100%);
+  transform: translate(130%, -50%);
+  background: linear-gradient(to left, rgba(0,0,0,0) 20%, rgb(128, 34, 254) 50% 100%);
 }
+
 /*! End Main Title */
 
 /*! Start Form Style */
