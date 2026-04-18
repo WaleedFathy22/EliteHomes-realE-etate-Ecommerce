@@ -227,7 +227,7 @@ color: white;
 .title span:first-child::before{
   content: "";
   position: absolute;
-  width: 70px;
+  width: 60px;
   height: 2px;
   left: 0;
   top: 50%;
@@ -238,7 +238,7 @@ color: white;
 .title span:first-child::after{
   content: "";
   position: absolute;
-  width: 70px;
+  width: 60px;
   height: 2px;
   right: 0;
   top: 50%;
