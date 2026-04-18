@@ -551,24 +551,9 @@ color: white;
     background-image: none !important;
 }
 
-.home form .layer{
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  font-weight: 500;
-}
-
 .home .primary-btn:hover{
   color: white;
 }
-
-.home form .layer{
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  font-weight: 500;
-}
-
 
 /* =================== End Home Style =================== */
 
@@ -1096,4 +1081,3 @@ footer .footer-bottom{
 
 
 /* =================== End Footer Style =================== */
-
