@@ -226,9 +226,9 @@ color: white;
 .title span:first-child::before{
   content: "";
   position: absolute;
-  width: 50%;
+  width: 30%;
   height: 2.5px;
-  left: -50%;
+  left: -30%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to right , rgba(0,0,0,0) 30% , rgb(128, 34, 254) 50% 100%);
@@ -237,9 +237,9 @@ color: white;
 .title span:first-child::after{
   content: "";
   position: absolute;
-  width: 50%;
+  width: 30%;
   height: 2.5px;
-  right: -50%;
+  right: -30%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to left , rgba(0,0,0,0) 20% , rgb(128, 34, 254) 50% 100%);
