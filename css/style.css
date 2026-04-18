@@ -227,7 +227,7 @@ color: white;
 .title span:first-child::before{
   content: "";
   position: absolute;
-  width: 80px;
+  width: 70px;
   height: 2px;
   left: 0;
   top: 50%;
@@ -238,14 +238,13 @@ color: white;
 .title span:first-child::after{
   content: "";
   position: absolute;
-  width: 80px;
+  width: 70px;
   height: 2px;
   right: 0;
   top: 50%;
   transform: translate(130%, -50%);
   background: linear-gradient(to left, rgba(0,0,0,0) 20%, rgb(128, 34, 254) 50% 100%);
 }
-
 /*! End Main Title */
 
 /*! Start Form Style */
@@ -282,8 +281,6 @@ color: white;
     background-image: none !important;
 }
 /*! End Form Style */
-
-
 /* =================== End Global Style =================== */
 
 /* =================== Start Navbar Style =================== */
