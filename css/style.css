@@ -157,6 +157,7 @@
 
 body {
   margin: 0;
+    overflow: hidden;
   /* !!! => font family is exo 
  ! but i used this font family coz it's more simillar to the original one   */
   font-family: Arial, Helvetica, sans-serif;
@@ -213,7 +214,6 @@ color: white;
   padding: 5px 20px;
   background-color:d;
   letter-spacing: 1.5px;
-  overflow: hidden;
 }
 
 .title span.last{
