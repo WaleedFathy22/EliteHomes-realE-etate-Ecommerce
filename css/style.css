@@ -157,7 +157,6 @@
 
 body {
   margin: 0;
-    overflow: hidden;
   /* !!! => font family is exo 
  ! but i used this font family coz it's more simillar to the original one   */
   font-family: Arial, Helvetica, sans-serif;
@@ -214,6 +213,7 @@ color: white;
   padding: 5px 20px;
   background-color:d;
   letter-spacing: 1.5px;
+  font-size: var(--fs-xxs);
 }
 
 .title span.last{
@@ -227,9 +227,9 @@ color: white;
 .title span:first-child::before{
   content: "";
   position: absolute;
-  width: 50%;
+  width: 80px;
   height: 2.5px;
-  left: -70%;
+  left: -50%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to right , rgba(0,0,0,0) 30% , rgb(128, 34, 254) 50% 100%);
@@ -238,9 +238,9 @@ color: white;
 .title span:first-child::after{
   content: "";
   position: absolute;
-  width: 50%;
+  width: 80px;
   height: 2.5px;
-  right: -70%;
+  right: -50%;
   top: 50%;
   transform: translateY(-50%);
   background: linear-gradient(to left , rgba(0,0,0,0) 20% , rgb(128, 34, 254) 50% 100%);
