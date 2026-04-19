@@ -9,6 +9,7 @@
 --text-purple:#9810FA;
 --dark-purple:#9E27FE; 
 --text-dark-gray:#4A5565;
+--text-gray:#364153;
 --light-violet:#ede9fe; 
 --light-green:#DBFCE7;
 --light-purple:#F3E8FF;
@@ -34,6 +35,10 @@
 
 .text-color{
   color: var(--text-color);
+}
+
+.text-gray{
+  color: var(--text-gray);
 }
 
 .text-secondary-color{
